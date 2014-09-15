@@ -3,9 +3,23 @@
 Public Class Form1
 
     Private Sub btnFirstName_Click(sender As System.Object, e As System.EventArgs) Handles btnFirstName.Click
-        ' Please write your code here
+        Dim x As String
+        x = txtFullName.Text
 
-        txtFirstName.Text = "Not implemented yet"
+        Dim x2 As String
+        x2 = x.Trim()
+
+        Dim space As Integer
+        space = x2.IndexOf(" ")
+
+        Dim fstName As String
+        fstName = x2.Substring(0, space)
+
+        txtFirstName.Text = fstName
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

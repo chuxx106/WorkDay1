@@ -32,7 +32,7 @@ Partial Class Form1
         'txtFullName
         '
         Me.txtFullName.Location = New System.Drawing.Point(154, 35)
-        Me.txtFullName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFullName.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFullName.Name = "txtFullName"
         Me.txtFullName.Size = New System.Drawing.Size(153, 20)
         Me.txtFullName.TabIndex = 0
@@ -50,7 +50,7 @@ Partial Class Form1
         'btnFirstName
         '
         Me.btnFirstName.Location = New System.Drawing.Point(109, 67)
-        Me.btnFirstName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnFirstName.Margin = New System.Windows.Forms.Padding(2)
         Me.btnFirstName.Name = "btnFirstName"
         Me.btnFirstName.Size = New System.Drawing.Size(113, 21)
         Me.btnFirstName.TabIndex = 2
@@ -60,7 +60,7 @@ Partial Class Form1
         'txtFirstName
         '
         Me.txtFirstName.Location = New System.Drawing.Point(154, 114)
-        Me.txtFirstName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFirstName.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.ReadOnly = True
         Me.txtFirstName.Size = New System.Drawing.Size(153, 20)
@@ -86,7 +86,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnFirstName)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtFullName)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "FirstName"
         Me.ResumeLayout(False)
